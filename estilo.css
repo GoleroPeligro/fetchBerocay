@@ -1,0 +1,257 @@
+body{
+    /* width: 98.8%; */
+    font-family:  Sans-Serif ;
+    background: #008080;
+}
+
+.titulo{   
+    display: flex;
+    margin: auto;
+    padding-top: 2px;
+    width: 99.5%;
+    height: auto;
+    border-style: inset;
+    
+    
+    background: #808080 ;
+    font-family: sans-serif;
+    
+}
+.titulo h1{
+    margin: auto;
+    display: block;
+    position: relative;
+    margin-top: 40px;
+    font-size: 60px;
+    letter-spacing: 10px;
+    margin-bottom: 30px;
+}
+
+.saludo{
+    display: inline-block;
+    /* margin-top: px; */
+    /* width: 200px; */
+    position: relative;
+    margin-left: 10%;
+    margin-top: 20px;
+    width: 200px;
+    font-size: 15px;
+
+}
+.climaDiv{
+    display: inline-block;
+    position: relative;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 200px;
+
+}
+.climaDiv p{
+    display: inline-block;
+}
+.btn-container {
+    margin: auto;
+    display: block;
+    background:#a0a0a4 ;
+    width: 99.5%;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
+    
+}
+
+.btn{
+    padding: 10px;
+    display: inline-block;
+    margin: auto;
+    background: transparent;
+    width: 33.13%;
+    
+}
+
+.btn:hover{
+    background: #c0c0c0  ;
+}
+
+.btn:focus{
+   background: #808080;
+}
+
+@media (max-width:1240px) {
+
+    .btn {
+        display: block;
+        width: 100%;
+    }
+}
+
+.blur{
+    visibility: hidden;
+    position: absolute;
+    display: block;
+    background: #000;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    z-index: 200;
+}
+.nom-container{
+    visibility: hidden;
+    display: block;
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 13%;
+    transform: translate(-50%);
+    width: 470px; 
+    padding: 40px;
+    background: #a0a0a4 ;
+    border-style: inset;
+    box-sizing: border-box;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, .6);
+    overflow: auto;  
+    z-index: 1000;
+}
+
+.form-container {
+    /* visibility: hidden; */
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 480px;
+    height:67%;
+    padding: 40px;
+    background: #a0a0a4 ;
+    border-style: inset;
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
+    display: inline-block;
+    overflow: auto;
+}
+
+
+.input-box {
+    position: relative;
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+}
+.input-btn {
+    padding: 0.5em;
+}
+
+.prodview{
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.div-prod{
+    display: inline-block;
+    background: #a0a0a4;
+    position: relative;
+    margin: 10px;
+    margin-top: 10px;
+    padding: 1.5em 1em;
+    width: 32%;
+    height: 195px;
+    border-style: inset;
+    /* box-sizing: border-box; */
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
+    overflow: auto;
+}
+
+.div-prod p {
+    padding: 0.5em;
+}
+
+.div-prod button{
+    margin-top: 10px;
+    padding: 0.5em;
+}
+
+.div-carrito{
+    visibility: hidden;
+    position: absolute;
+    display: inline-block;
+    top: 123px;
+    margin-left: 68.5%;
+    margin-top: 85px;
+    width: 470px;
+    height: 67%; 
+    padding: 10px;
+    text-align: center;
+    background: #a0a0a4 ;
+    border-style: inset;
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
+    display: block;
+    overflow: auto;
+    
+}
+@media (max-width:1240px) {
+
+    .div-carrito {
+        display: block;
+        margin-top: 330px;
+        margin-left: 15px;
+    }
+}
+.div-carrito h2 {
+    padding: 1em;
+    
+}
+.div-carrito p {
+    padding: 1em;
+
+}
+
+.div-carrito .div-prod-car button{
+    padding: 0.5em;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.btnComprar{
+    margin-top: 10px;
+    padding: 0.5em;
+}
+
+.btnBorrar{
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    padding: 0.2em;
+    font-size: 12px;
+}
+
+.div-prod-car{
+    padding: 1em;
+    display: block;
+    background: #a0a0a4;
+    position: relative;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .6);
+    display: block;
+    border: 1px solid #000;
+    margin: 10px;
+
+}
+.div-carrito .div-prod-car p {
+    display: inline-block;
+    padding: 0.5px;
+    position: relative;
+}
+
+.swal-modal {
+    background: #a0a0a4;
+}
+
+.swal-button{
+    background:#e9e9ed;
+    padding: 0.5em;
+    color: #000;
+    font-family:  Sans-Serif ;
+}
+

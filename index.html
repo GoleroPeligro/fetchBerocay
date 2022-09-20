@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <title>Fetch</title>
+    </head>
+<body>
+    <div id="blur-div" class="blur"></div>
+        <div id="nom-div" class="nom-container">
+            <h3>Por favor, ingrese su nombre</h3>
+            <form id="form-nom">
+                <input type="text" class="input-box" id="nom-usuario">
+                <input type="submit" class="input-btn" id="btn-nom-usuario" value="Enviar">
+            </form>
+        </div>
+    </div>
+    <section>
+        <div class="titulo" id="header">
+            <div id="clima" class="climaDiv"><p></p></div> 
+                  
+            <h1>T e c n o b s o l e t o</h1>    
+            <div id="saludo"></div>
+        </div>
+    </section>
+    <section>
+        <div class="btn-container" >
+            <button class="btn" id="btn-add">Agregar productos</button>
+            <button class="btn" id="btn-ver">Ver productos</button>
+            <button class="btn" id="btn-carrito">Carrito</button>
+        </div>
+    </section>
+    <section>
+        <div class="form-container" id="add-prod">
+            <h2>Ingrese los datos del producto</h2>
+            <form action="" id="formulario">
+                <input type="text" name="nombre" class="input-box" id="inom" placeholder="Nombre">
+                <input type="number" name="precio" class="input-box" id="iprecio" placeholder="Precio">
+                <input type="text" name="descripcion" class="input-box" id="idescripcion" placeholder="Descripcion">
+                <input type="submit" value="Enviar" class="input-btn" id="btn-enviar">
+            </form>
+        </div>
+        <div id="ver-prod" class="prodview"></div>
+        <div id="carrito" class="div-carrito">
+            <div id="prod-carrito" class="prod-carrito"></div>
+        </div>
+    </section>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
